@@ -73,7 +73,7 @@ const Register = () => {
         />
 
         <label>Profile Images</label>
-        <input type="file" name="profileImages" onChange={handleFileChange} />
+        <input type="file" name="profileImages" multiple onChange={handleFileChange} />
 
         <button type="submit">Register</button>
 

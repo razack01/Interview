@@ -1,0 +1,73 @@
+/* Page centering */
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form box */
+.register-form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Headline */
+.register-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.register-form label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+/* Input fields */
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"],
+.register-form input[type="file"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Button */
+.register-form button {
+  margin-top: 12px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Success/error message */
+.message {
+  text-align: center;
+  margin-top: 10px;
+  color: green;
+  font-size: 14px;
+}
+
+

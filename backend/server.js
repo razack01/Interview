@@ -11,7 +11,7 @@ const app = express();
 
 connectDB();
 app.use(cors({
-  origin: "http://localhost:5173",  // your React app URL
+  origin: "http://localhost:5174",  // your React app URL
   credentials: true
 }));
 app.use(express.json());
